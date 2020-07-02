@@ -12,7 +12,7 @@ const session = require("express-session");
 const MongosStore = require("connect-mongo")(session);
 const bodyParser = require("body-parser");
 
-//connect
+//
 dotenv.config({ path: "./config.env/.env" });
 require("./config.env/passport")(passport);
 
